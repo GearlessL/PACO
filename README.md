@@ -1,1 +1,121 @@
-# PACO
+# The code of algorithms
+* Peeling: the state-of-the-art sequential D-truss decomposition algorithm. We use the authors' implementation\footnote{\texttt{Peeling}: \url{https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp}};
+* RePeel: originally proposed for D-truss retrieval in streaming graphs. We adapt it to static full D-truss decomposition and use the authors’ released implementation\footnote{\texttt{Repeel}: \url{https://github.com/hkbudb/streaming-dtruss/tree/main}};
+* PACT: our proposed D-truss decomposition method;
+* PACO: our proposed D-truss decomposition method in Algorithm \ref{algorithm:progress} incorporates order-based refine Algorithm~\ref{algorithm:or}..
+
+
+
+# Compiling and Running
+## Compiling the program
+```
+g++ ${fileDirname}/*.cpp -O3 -o ${FILE_NAME}
+```
+
+For example:
+```
+g++ Graph.cpp main.cpp -O3 -o dtruss
+```
+
+
+## Running the program:
+```
+./${FILE_NAME} -f ${GRAPH_FILE} -a ${ALGORITHM}
+```
+
+For example:
+```
+./dtruss \
+-f ./example/em.txt \
+-a 1 
+```
+
+For simply, we can run the program via a script ```./run.py```.
+
+
+
+
+## Input format
+* THREAD:
+The number of threads.
+
+* GRAPH_FILE:
+The first line is consited of # of nodes and # of directed edges in the graph, which is denoted as following.
+```
+${NODES} ${EDGE}
+``` 
+Remains line represents a directed edge from node u to node v, which is presented as following.
+```
+${u} ${v}
+```
+
+
+* ALGORITHM:
+The id of algorithm will be running, which the id is presented as following.
+
+| id | algorithms |
+| :----: | :----: |
+| 1 | Peeling |
+| 2 | RePeel |
+| 3 | PACT |
+| 4 | PACO |
+
+# Other
+* The ten datasets used in paper are availabe from:
+
+
+<div style="text-align:center">
+    <table>
+        <tbody>
+        <tr>
+            <th>Name</th>
+            <th>Abbr.</th>
+            <th>Source</th>
+        </tr>
+        <tr>
+            <td>Email-EuAll</td>
+            <td>EM</td>
+            <td rowspan="5">https://snap.stanford.edu/data/index.htm</td>
+        </tr>
+        <tr>
+            <td>Slashdot</td>
+            <td>SD</td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td>AM</td>
+        </tr>
+        <tr>
+            <td>Pokec</td>
+            <td>PO</td>
+        </tr>
+        <tr>
+            <td>Live Journal</td>
+            <td>LJ</td>
+        </tr>
+        <tr>
+            <td>Enwiki-2013</td>
+            <td>EW</td>
+            <td rowspan="5">https://law.di.unimi.it/index.php</td>
+        </tr>
+        <tr>
+            <td>Hollywood</td>
+            <td>HW</td>
+        </tr>
+        <tr>
+            <td>Webbase</td>
+            <td>WB</td>
+        </tr>
+        <tr>
+            <td>IT-2004</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>UK-2007</td>
+            <td>UK</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+* We give an example of Email-EuAll in ```./materials/```, and running time of all algorithms in ```./result/```.
