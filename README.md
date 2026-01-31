@@ -63,58 +63,60 @@ The id of algorithm will be running, which the id is presented as following.
 
 
 <div style="text-align:center">
-    <table>
-        <tbody>
-        <tr>
-            <th>Name</th>
-            <th>Abbr.</th>
-            <th>Source</th>
-        </tr>
-        <tr>
-            <td>OpenFlights</td>
-            <td>OF</td>
-        </tr>
-            <tr>
-            <td>Advogato</td>
-            <td>AD</td>
-        </tr>
-        <tr>
-            <td>Email-EuAll</td>
-            <td>EM</td>
-        </tr>
-        <tr>
-            <td>Slashdot</td>
-            <td>SD</td>
-        </tr>
-        <tr>
-            <td>Amazon</td>
-            <td>AM</td>
-        </tr>
-        <tr>
-            <td>BerkStan</td>
-            <td>BS</td>
-        </tr>
-        <tr>
-            <td>Wikipedia-Link </td>
-            <td>WL</td>
-        </tr>
-        <tr>
-            <td>Pokec</td>
-            <td>PO</td>
-        </tr>
-        <tr>
-            <td>Live Journal</td>
-            <td>LJ</td>
-        </tr>
-        <tr>
-            <td>Enwiki-2013</td>
-            <td>EW</td>
-            <td rowspan="10">
-                https://snap.stanford.edu/data/index.htm<\br>https://snap.stanford.edu/data/index.html<\br>https://law.di.unimi.it/index.php
-            </td>
-        </tr>
-        </tbody>
-    </table>
+<table>
+    <tbody>
+    <tr>
+        <th>Name</th>
+        <th>Abbr.</th>
+        <th>Source</th>
+    </tr>
+    <tr>
+        <td>OpenFlights</td>
+        <td>OF</td>
+        <td rowspan="10">
+            https://snap.stanford.edu/data/index.htm<br>
+            https://law.di.unimi.it/index.php<br>
+            http://konect.cc/networks/
+        </td>
+    </tr>
+    <tr>
+        <td>Advogato</td>
+        <td>AD</td>
+    </tr>
+    <tr>
+        <td>Email-EuAll</td>
+        <td>EM</td>
+    </tr>
+    <tr>
+        <td>Slashdot</td>
+        <td>SD</td>
+    </tr>
+    <tr>
+        <td>Amazon</td>
+        <td>AM</td>
+    </tr>
+    <tr>
+        <td>BerkStan</td>
+        <td>BS</td>
+    </tr>
+    <tr>
+        <td>Wikipedia-Link</td>
+        <td>WL</td>
+    </tr>
+    <tr>
+        <td>Pokec</td>
+        <td>PO</td>
+    </tr>
+    <tr>
+        <td>Live Journal</td>
+        <td>LJ</td>
+    </tr>
+    <tr>
+        <td>Enwiki-2013</td>
+        <td>EW</td>
+    </tr>
+    </tbody>
+</table>
 </div>
 
 * We give an example of Email-EuAll in ```./example/```, and running time of all algorithms in ```./result/```.
