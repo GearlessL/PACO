@@ -11,22 +11,22 @@ D-truss decomposition algorithms for directed graphs.
 
 We evaluate the following algorithms:
 
-* **Peeling**
+* **Peeling**:
   The state-of-the-art sequential D-truss decomposition algorithm.
   Implementation (original authors):
   [https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp](https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp)
 
-* **RePeel**
+* **RePeel**:
   Originally proposed for D-truss retrieval in streaming graphs.
   We adapt it to static full D-truss decomposition.
   Implementation (original authors):
   [https://github.com/hkbudb/streaming-dtruss/tree/main](https://github.com/hkbudb/streaming-dtruss/tree/main)
 
-* **PACT**
+* **PACT**:
   Our proposed progressive D-truss decomposition method.
 
-* **PACO**
-  Our proposed method that incorporates order-based refinement into PACT.
+* **PACO**:
+  Our proposed method incorporates order-based refinement into PACT.
 
 ---
 
