@@ -4,7 +4,9 @@
 * PACT: our proposed D-truss decomposition method;
 * PACO: our proposed D-truss decomposition method incorporates the order-based refinement algorithm.
 
-
+# Environment
+## Ubuntu 24.04 LTS
+## g++ 13.3.0
 
 # Compiling and Running
 ## Compiling the program
@@ -28,7 +30,7 @@ For example:
 ./dtruss -f ./example/em.txt -a 1 
 ```
 
-For simply, we can run the program via a script ```./run.py```.
+For simply, we can run the program via a script ```bash run.sh```.
 
 
 
