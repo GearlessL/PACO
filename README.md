@@ -71,9 +71,16 @@ The id of algorithm will be running, which the id is presented as following.
             <th>Source</th>
         </tr>
         <tr>
+            <td>OpenFlights</td>
+            <td>OF</td>
+        </tr>
+            <tr>
+            <td>Advogato</td>
+            <td>AD</td>
+        </tr>
+        <tr>
             <td>Email-EuAll</td>
             <td>EM</td>
-            <td rowspan="5">https://snap.stanford.edu/data/index.htm</td>
         </tr>
         <tr>
             <td>Slashdot</td>
@@ -82,6 +89,14 @@ The id of algorithm will be running, which the id is presented as following.
         <tr>
             <td>Amazon</td>
             <td>AM</td>
+        </tr>
+        <tr>
+            <td>BerkStan</td>
+            <td>BS</td>
+        </tr>
+        <tr>
+            <td>Wikipedia-Link </td>
+            <td>WL</td>
         </tr>
         <tr>
             <td>Pokec</td>
@@ -94,23 +109,11 @@ The id of algorithm will be running, which the id is presented as following.
         <tr>
             <td>Enwiki-2013</td>
             <td>EW</td>
-            <td rowspan="5">https://law.di.unimi.it/index.php</td>
-        </tr>
-        <tr>
-            <td>Wikipedia-Link </td>
-            <td>WL</td>
-        </tr>
-        <tr>
-            <td>BerkStan</td>
-            <td>BS</td>
-        </tr>
-        <tr>
-            <td>Advogato</td>
-            <td>AD</td>
-        </tr>
-        <tr>
-            <td>OpenFlights</td>
-            <td>OF</td>
+            <td rowspan="10">
+                https://snap.stanford.edu/data/index.htm
+                https://snap.stanford.edu/data/index.html
+                https://law.di.unimi.it/index.php
+            </td>
         </tr>
         </tbody>
     </table>
