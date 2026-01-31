@@ -2,7 +2,7 @@
 * **Peeling**: The state-of-the-art sequential D-truss decomposition algorithm. We use the authors' implementation: [Peeling](https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp).
 * **RePeel**: Originally proposed for D-truss retrieval in streaming graphs. We adapt it to static full D-truss decomposition and use the authors' released implementation: [Repeel](https://github.com/hkbudb/streaming-dtruss/tree/main).
 * PACT: our proposed D-truss decomposition method;
-* PACO: our proposed D-truss decomposition method in Algorithm \ref{algorithm:progress} incorporates order-based refine Algorithm~\ref{algorithm:or}..
+* PACO: our proposed D-truss decomposition method incorporates the order-based refinement algorithm.
 
 
 
@@ -110,13 +110,11 @@ The id of algorithm will be running, which the id is presented as following.
             <td>Enwiki-2013</td>
             <td>EW</td>
             <td rowspan="10">
-                https://snap.stanford.edu/data/index.htm
-                https://snap.stanford.edu/data/index.html
-                https://law.di.unimi.it/index.php
+                https://snap.stanford.edu/data/index.htm<\br>https://snap.stanford.edu/data/index.html<\br>https://law.di.unimi.it/index.php
             </td>
         </tr>
         </tbody>
     </table>
 </div>
 
-* We give an example of Email-EuAll in ```./materials/```, and running time of all algorithms in ```./result/```.
+* We give an example of Email-EuAll in ```./example/```, and running time of all algorithms in ```./result/```.
