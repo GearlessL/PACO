@@ -34,9 +34,6 @@ For simply, we can run the program via a script ```./run.py```.
 
 
 ## Input format
-* THREAD:
-The number of threads.
-
 * GRAPH_FILE:
 The first line is consited of # of nodes and # of directed edges in the graph, which is denoted as following.
 ```
