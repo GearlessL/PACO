@@ -1,6 +1,6 @@
 # The code of algorithms
-* Peeling: the state-of-the-art sequential D-truss decomposition algorithm. We use the authors' implementation\footnote{\texttt{Peeling}: \url{https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp}};
-* RePeel: originally proposed for D-truss retrieval in streaming graphs. We adapt it to static full D-truss decomposition and use the authors’ released implementation\footnote{\texttt{Repeel}: \url{https://github.com/hkbudb/streaming-dtruss/tree/main}};
+* **Peeling**: The state-of-the-art sequential D-truss decomposition algorithm. We use the authors' implementation: [Peeling](https://github.com/TestCodeHouse/DTrussMain/tree/main/ddecomp).
+* **RePeel**: Originally proposed for D-truss retrieval in streaming graphs. We adapt it to static full D-truss decomposition and use the authors' released implementation: [Repeel](https://github.com/hkbudb/streaming-dtruss/tree/main).
 * PACT: our proposed D-truss decomposition method;
 * PACO: our proposed D-truss decomposition method in Algorithm \ref{algorithm:progress} incorporates order-based refine Algorithm~\ref{algorithm:or}..
 
@@ -25,9 +25,7 @@ g++ Graph.cpp main.cpp -O3 -o dtruss
 
 For example:
 ```
-./dtruss \
--f ./example/em.txt \
--a 1 
+./dtruss -f ./example/em.txt -a 1 
 ```
 
 For simply, we can run the program via a script ```./run.py```.
@@ -99,20 +97,20 @@ The id of algorithm will be running, which the id is presented as following.
             <td rowspan="5">https://law.di.unimi.it/index.php</td>
         </tr>
         <tr>
-            <td>Hollywood</td>
-            <td>HW</td>
+            <td>Wikipedia-Link </td>
+            <td>WL</td>
         </tr>
         <tr>
-            <td>Webbase</td>
-            <td>WB</td>
+            <td>BerkStan</td>
+            <td>BS</td>
         </tr>
         <tr>
-            <td>IT-2004</td>
-            <td>IT</td>
+            <td>Advogato</td>
+            <td>AD</td>
         </tr>
         <tr>
-            <td>UK-2007</td>
-            <td>UK</td>
+            <td>OpenFlights</td>
+            <td>OF</td>
         </tr>
         </tbody>
     </table>
